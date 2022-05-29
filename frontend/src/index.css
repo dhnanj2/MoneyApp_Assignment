@@ -7,14 +7,35 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-header {
-  background-color:#027cd5 ;
-  padding: 1rem;
+.site-container {
+  min-height: 100vh;
 }
 
-header a{
-  color: white;
-  font-weight: bold;
-  font-family: Verdana;
-  text-decoration: none;
+main {
+  flex: 1;
+}
+
+.btn-primary {
+  background-color: #f0c040;
+  color: #000000;
+}
+
+.products {
+  display: flex;
+  justify-content: center;
+}
+
+.rating span {
+  color: #ffc000;
+}
+
+.product {
+  border: 1px #000000 solid;
+  margin: 1rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 10rem;
+  max-height: 20rem;
 }
